@@ -1,0 +1,9 @@
+
+---
+type: specs.openrewrite.org/v1beta/recipe
+name: org.ad-sachin.MyCustomRecipe
+displayName: Spring Boot Upgrade
+description: Fix all the things.
+tags: java,spring,boot
+recipeList:
+   - org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_2
